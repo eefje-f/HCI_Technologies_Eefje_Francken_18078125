@@ -1,0 +1,55 @@
+html{
+    box-sizing:border-box;
+    padding:0;
+    margin: auto;
+}
+
+body{
+    font-family: Calibri;
+}
+
+h2{
+    font-weight: normal;
+    text-size: 25px;
+    text-align: center;
+}
+
+.container{
+    font-size:20px;
+    color: white;
+    display:grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "introductionUE advancedUE introductionaframe";
+}
+
+.introductionUE{
+    grid-area: introductionUE;
+    background-color: #E8AE3C;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.advancedUE{
+    grid-area: advancedUE;
+    background-color: #989CED;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.introductionaframe{
+    grid-area: introductionaframe;
+    background-color: #73BAD3;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}

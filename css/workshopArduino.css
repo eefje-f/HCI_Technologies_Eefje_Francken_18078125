@@ -1,0 +1,67 @@
+html{
+    box-sizing:border-box;
+    padding:0;
+    margin: auto;
+}
+
+body{
+    font-family: Calibri;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container{
+    font-size:20px;
+    display:grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: 2fr;
+    grid-template-rows: fr fr fr fr fr fr fr;
+    grid-template-areas:
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7";
+}
+
+img{
+    width: 40%;
+}
+
+.ueimage{
+    text-align: center;
+}
+
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.img4{
+    grid-area: img4;
+}
+
+.img5{
+    grid-area: img5;
+}
+
+.img6{
+    grid-area: img6;
+}
+
+.img7{
+    grid-area: img7;
+}

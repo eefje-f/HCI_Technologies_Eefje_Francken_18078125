@@ -1,0 +1,119 @@
+html{
+    box-sizing:border-box;
+    padding:0;
+    margin: auto;
+}
+
+body{
+    font-family: Calibri;
+}
+
+.homeportfolio{
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: normal;
+    font-size:30px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.container{
+    font-size:20px;
+    color: white;
+    display:grid;
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas:
+    "topicARVR topicW topicAC"
+    "topicPI workshopAR workshopArduino"
+    "workshopCV guestlecture labweeks";
+}
+
+.topicARVR{
+    grid-area: topicARVR;
+    background-color:#E8AE3C;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.topicW{
+    grid-area: topicW;
+    background-color: #E8AE3C;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.topicAC{
+    grid-area: topicAC;
+    background-color: #E8AE3C;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.topicPI{
+    grid-area: topicPI;
+    background-color: #E8AE3C;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.workshopAR{
+    grid-area: workshopAR;
+    background-color: #989CED;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.workshopArduino{
+    grid-area: workshopArduino;
+    background-color: #989CED;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.workshopCV{
+    grid-area: workshopCV;
+    background-color: #989CED;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.guestlecture{
+    grid-area: guestlecture;
+    background-color: #73BAD3;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+.labweeks{
+    grid-area: labweeks;
+    background-color: #73BAD3;
+    text-align: center;
+    padding: 115px 0;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
